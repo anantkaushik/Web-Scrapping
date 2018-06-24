@@ -19,5 +19,5 @@ else:#if there wa no exceptions raised. This block will execute
         x = code.nonExistingTag.Attribute #fetching information from tag(here i try to fetch info from non-existing tag to raise error)
     except AttributeError as e: #catch the AttributeError
         print("Tag Not Found")
-    else:#if there wa no exceptions raised. This block will execute
+    else:#if there was no exceptions raised. This block will execute
         print(x) #printing the data inside the tag
